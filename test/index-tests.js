@@ -31,8 +31,8 @@ describe('log-me-gently', function() {
     beforeEach(function() {
       this.context = {
         log: {
-          debug: sinon.stub()
-        }
+          debug: sinon.stub(),
+        },
       };
     });
 
