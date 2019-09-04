@@ -41,8 +41,8 @@ jobs:
     steps:
       - checkout
       - *attach_workspace
-      - run: sudo npm install -g publish
-      - run: publish
+      - run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
+      - run: npx publish
 
 workflows:
   version: 2
