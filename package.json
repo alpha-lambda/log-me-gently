@@ -1,6 +1,6 @@
 {
   "name": "@alpha-lambda/log-me-gently",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "engines": {
     "node": ">=8.10"
   },
